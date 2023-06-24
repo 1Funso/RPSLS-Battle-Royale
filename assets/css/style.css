@@ -1,4 +1,4 @@
-/* Apply Roboto font, center alignment, and light gray background to the whole body */
+/* Apply Roboto font, center alignment, and dark gradient background to the whole body */
 body {
     font-family: 'Roboto', sans-serif;
     text-align: center;
@@ -6,7 +6,18 @@ body {
     color: #21D19F;
 }
 
-* Apply padding to each screen (start, game, and end) and add shadow */ #startScreen,
+/* Header styles */
+#header {
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+#header h1 {
+    color: #21D19F;
+}
+
+/* Apply padding to each screen (start, game, and end) */
+#startScreen,
 #gameScreen,
 #endScreen {
     padding: 20px;
@@ -18,13 +29,22 @@ body {
     color: #21D19F;
 }
 
+/* Introduction paragraph style */
+#startScreen p {
+    font-size: 18px;
+    color: #21D19F;
+    margin: 20px auto;
+    max-width: 800px;
+    /* limit the width of the paragraph */
+}
+
 /* Initially hide the game and end screens */
 #gameScreen,
 #endScreen {
     display: none;
 }
 
-/* Style the rules section */
+/* Style the rules section with a border and background */
 #rules {
     text-align: left;
     padding: 20px;
