@@ -10,7 +10,8 @@ function startGame() {
     playerName = document.getElementById('playerName').value;
     document.getElementById('startScreen').style.display = 'none';
     document.getElementById('gameScreen').style.display = 'block';
-    document.getElementById('player').textContent = playerName + ', make your move:';
+    document.getElementById('player').textContent = playerName;
+    document.getElementById('player').innerHTML += "<br><br><br>Make your move by clicking one of the following buttons:";
 }
 
 /* Function to play a round of the game */

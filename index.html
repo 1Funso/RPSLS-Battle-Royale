@@ -14,10 +14,11 @@
 <body>
     <!-- Common header for all screens -->
     <div id="header">
-        <img src="assets/images/logo.png" alt="Game logo" id="logo">
         <h1>RSPLS Battle Royale</h1>
+        <div id="logo-container">
+            <img src="/assets/images/RSPLS logo.png" alt="Game logo">
+        </div>
     </div>
-
     <!-- The start screen where users can enter their name -->
     <div id="startScreen">
         <h1>Welcome to RSPLS Battle Royale!</h1>
@@ -72,11 +73,26 @@
         <h3 id="result"></h3>
 
         <!-- Buttons for each possible choice. When clicked, they call the playRound function with their choice as a parameter. -->
-        <button onclick="playRound('rock')"><i class="fas fa-fist-raised"></i></button>
-        <button onclick="playRound('paper')"><i class="far fa-file-alt"></i></button>
-        <button onclick="playRound('scissors')"><i class="fas fa-cut"></i></button>
-        <button onclick="playRound('lizard')"><i class="fas fa-dragon"></i></button>
-        <button onclick="playRound('spock')"><i class="far fa-hand-spock"></i></button>
+        <button onclick="playRound('rock')">
+            <i class="fas fa-fist-raised"></i>
+            <span>Rock</span>
+        </button>
+        <button onclick="playRound('paper')">
+            <i class="far fa-file-alt"></i>
+            <span>Paper</span>
+        </button>
+        <button onclick="playRound('scissors')">
+            <i class="fas fa-cut"></i>
+            <span>Scissors</span>
+        </button>
+        <button onclick="playRound('lizard')">
+            <i class="fas fa-dragon"></i>
+            <span>Lizard</span>
+        </button>
+        <button onclick="playRound('spock')">
+            <i class="far fa-hand-spock"></i>
+            <span>Spock</span>
+        </button>
     </div>
 
     <!-- The end screen shown when the game is over. Initially hidden. -->
