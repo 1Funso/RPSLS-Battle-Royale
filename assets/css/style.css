@@ -134,3 +134,70 @@ button:active {
 #finalScore {
     color: #FF0000;
 }
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    #header h1 {
+        font-size: 30px;
+    }
+
+    #logo-container {
+        width: 100px;
+        height: 100px;
+    }
+
+    #startScreen,
+    #gameScreen,
+    #endScreen {
+        max-width: 100%;
+    }
+
+    #startScreen p {
+        font-size: 14px;
+        max-width: 100%;
+    }
+
+    button {
+        font-size: 16px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 601px and up) */
+@media only screen and (min-width: 601px) {
+    #header h1 {
+        font-size: 40px;
+    }
+
+    #logo-container {
+        width: 150px;
+        height: 150px;
+    }
+
+    #startScreen p {
+        font-size: 16px;
+    }
+
+    button {
+        font-size: 18px;
+    }
+}
+
+/* Medium devices (landscape tablets, 769px and up) */
+@media only screen and (min-width: 769px) {
+    #header h1 {
+        font-size: 40px;
+    }
+
+    #logo-container {
+        width: 150px;
+        height: 150px;
+    }
+
+    #startScreen p {
+        font-size: 16px;
+    }
+
+    button {
+        font-size: 18px;
+    }
