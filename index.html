@@ -12,22 +12,42 @@
 </head>
 
 <body>
-<!-- The start screen where users can enter their name -->
-<div id="startScreen">
-    <h1>Welcome to RPLS Battle Royale!</h1>
-    <input id="playerName" type="text" placeholder="Enter your name">
-    <button onclick="startGame()">Start Game</button>
+    <!-- The start screen where users can enter their name -->
+    <div id="startScreen">
+        <h1>Welcome to RPLS Battle Royale!</h1>
+        <input id="playerName" type="text" placeholder="Enter your name">
+        <button onclick="startGame()">Start Game</button>
 
-    <!-- Section for the game rules -->
-    <div id="rules">
-        <h2>Game Rules:</h2>
-        <p>Rock crushes Scissors and Lizard</p>
-        <p>Paper covers Rock and disproves Spock</p>
-        <p>Scissors cuts Paper and decapitates Lizard</p>
-        <p>Lizard eats Paper and poisons Spock</p>
-        <p>Spock smashes Scissors and vaporizes Rock</p>
+        <!-- Section for the game rules -->
+        <div id="rules">
+            <h2>Game Rules:</h2>
+            <p>Rock crushes Scissors and Lizard</p>
+            <p>Paper covers Rock and disproves Spock</p>
+            <p>Scissors cuts Paper and decapitates Lizard</p>
+            <p>Lizard eats Paper and poisons Spock</p>
+            <p>Spock smashes Scissors and vaporizes Rock</p>
+        </div>
+
+        <!-- The game screen where the game will be played. Initially hidden. -->
+        <div id="gameScreen" class="gameScreen">
+            <!-- Display the round number and the score -->
+            <h2 id="rounds">Round: 0</h2>
+            <h2 id="score">Score: 0</h2>
+
+            <!-- Display the player's name, their choice and the result -->
+            <h3 id="player"></h3>
+            <h3 id="choice"></h3>
+            <h3 id="result"></h3>
+
+            <!-- Buttons for each possible choice. When clicked, they call the playRound function with their choice as a parameter. -->
+            <button onclick="playRound('rock')"><i class="fas fa-fist-raised"></i></button>
+            <button onclick="playRound('paper')"><i class="far fa-file-alt"></i></button>
+            <button onclick="playRound('scissors')"><i class="fas fa-cut"></i></button>
+            <button onclick="playRound('lizard')"><i class="fas fa-dragon"></i></button>
+            <button onclick="playRound('spock')"><i class="far fa-hand-spock"></i></button>
+        </div>
+
     </div>
-</div>
     <script src="assets/js/script.js"></script>
 </body>
 
