@@ -9,11 +9,25 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
-
 </head>
 
 <body>
+<!-- The start screen where users can enter their name -->
+<div id="startScreen">
+    <h1>Welcome to RPLS Battle Royale!</h1>
+    <input id="playerName" type="text" placeholder="Enter your name">
+    <button onclick="startGame()">Start Game</button>
 
+    <!-- Section for the game rules -->
+    <div id="rules">
+        <h2>Game Rules:</h2>
+        <p>Rock crushes Scissors and Lizard</p>
+        <p>Paper covers Rock and disproves Spock</p>
+        <p>Scissors cuts Paper and decapitates Lizard</p>
+        <p>Lizard eats Paper and poisons Spock</p>
+        <p>Spock smashes Scissors and vaporizes Rock</p>
+    </div>
+</div>
     <script src="assets/js/script.js"></script>
 </body>
 
