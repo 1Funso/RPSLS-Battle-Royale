@@ -2,6 +2,44 @@
 body {
     font-family: 'Roboto', sans-serif;
     text-align: center;
-    background-color: #000000;
-    color: rgb(4, 248, 37);
+    background-color: #F5F5F5;
+    color: #333;
+}
+
+/* Apply padding to each screen (start, game, and end) */
+#startScreen,
+#gameScreen,
+#endScreen {
+    padding: 20px;
+}
+
+/* Style the rules section with a border and a white background */
+#rules {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #CCC;
+    border-radius: 10px;
+    background-color: #FFF;
+}
+
+/* Style the buttons with a blue background and white text. Add some padding and margin for spacing. */
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007BFF;
+    color: #FFF;
+    cursor: pointer;
+}
+
+/* Change the button's background color when hovered over */
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Change the button's background color when clicked */
+button:active {
+    background-color: #003680;
 }
