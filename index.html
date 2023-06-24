@@ -20,42 +20,63 @@
 
         <!-- Section for the game rules -->
         <div id="rules">
-            <h2>Game Rules:</h2>
-            <p>Rock crushes Scissors and Lizard</p>
-            <p>Paper covers Rock and disproves Spock</p>
-            <p>Scissors cuts Paper and decapitates Lizard</p>
-            <p>Lizard eats Paper and poisons Spock</p>
-            <p>Spock smashes Scissors and vaporizes Rock</p>
+            <h3>Game Rules and Instructions:</h3>
+            <ul>
+                <li><strong>Step 1:</strong> Enter your name and press 'Start Game'</li>
+                <li><strong>Step 2:</strong> Choose your move by clicking one of the following buttons: Rock, Paper,
+                    Scissors,
+                    Lizard, or Spock</li>
+                <li><strong>Step 3:</strong> The computer will also make a move. The winner of the round is determined
+                    by the
+                    following rules:
+                    <ul>
+                        <li>Rock crushes Scissors and Lizard</li>
+                        <li>Paper covers Rock and disproves Spock</li>
+                        <li>Scissors cuts Paper and decapitates Lizard</li>
+                        <li>Lizard eats Paper and poisons Spock</li>
+                        <li>Spock smashes Scissors and vaporizes Rock</li>
+                    </ul>
+                </li>
+                <li><strong>Scoring:</strong> You get a point if you win a round. The score is displayed at the top of
+                    the game
+                    screen</li>
+                <li><strong>End of the game:</strong> The game ends after 10 rounds. Your final score will be displayed
+                    and you can
+                    start a new game by clicking the 'Play Again' button</li>
+            </ul>
         </div>
+    </div>
 
-        <!-- The game screen where the game will be played. Initially hidden. -->
-        <div id="gameScreen" class="gameScreen">
-            <!-- Display the round number and the score -->
-            <h2 id="rounds">Round: 0</h2>
-            <h2 id="score">Score: 0</h2>
 
-            <!-- Display the player's name, their choice and the result -->
-            <h3 id="player"></h3>
-            <h3 id="choice"></h3>
-            <h3 id="result"></h3>
+    <!-- The game screen where the game will be played. Initially hidden. -->
+    <div id="gameScreen" class="gameScreen">
+        <!-- Display the round number and the score -->
+        <h2 id="rounds">Round: 0</h2>
+        <h2 id="score">Score: 0</h2>
 
-            <!-- Buttons for each possible choice. When clicked, they call the playRound function with their choice as a parameter. -->
-            <button onclick="playRound('rock')"><i class="fas fa-fist-raised"></i></button>
-            <button onclick="playRound('paper')"><i class="far fa-file-alt"></i></button>
-            <button onclick="playRound('scissors')"><i class="fas fa-cut"></i></button>
-            <button onclick="playRound('lizard')"><i class="fas fa-dragon"></i></button>
-            <button onclick="playRound('spock')"><i class="far fa-hand-spock"></i></button>
-        </div>
-        <!-- The end screen shown when the game is over. Initially hidden. -->
-        <div id="endScreen" class="endScreen">
-            <h1>Game Over!</h1>
-            <!-- Display the final score -->
-            <h2 id="finalScore"></h2>
-            <!-- Button to play again. When clicked, it calls the resetGame function. -->
-            <button onclick="resetGame()">Play Again</button>
-        </div>
-        <!-- Link to your JavaScript file -->
-        <script src="assets/js/script.js"></script>
+        <!-- Display the player's name, their choice and the result -->
+        <h3 id="player"></h3>
+        <h3 id="choice"></h3>
+        <h3 id="result"></h3>
+
+        <!-- Buttons for each possible choice. When clicked, they call the playRound function with their choice as a parameter. -->
+        <button onclick="playRound('rock')"><i class="fas fa-fist-raised"></i></button>
+        <button onclick="playRound('paper')"><i class="far fa-file-alt"></i></button>
+        <button onclick="playRound('scissors')"><i class="fas fa-cut"></i></button>
+        <button onclick="playRound('lizard')"><i class="fas fa-dragon"></i></button>
+        <button onclick="playRound('spock')"><i class="far fa-hand-spock"></i></button>
+    </div>
+
+    <!-- The end screen shown when the game is over. Initially hidden. -->
+    <div id="endScreen" class="endScreen">
+        <h1>Game Over!</h1>
+        <!-- Display the final score -->
+        <h2 id="finalScore"></h2>
+        <!-- Button to play again. When clicked, it calls the resetGame function. -->
+        <button onclick="resetGame()">Play Again</button>
+    </div>
+    <!-- Link to your JavaScript file -->
+    <script src="assets/js/script.js"></script>
 </body>
 
 </html>

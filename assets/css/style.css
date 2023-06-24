@@ -2,44 +2,71 @@
 body {
     font-family: 'Roboto', sans-serif;
     text-align: center;
-    background-color: #F5F5F5;
-    color: #333;
+    background: linear-gradient(to right, #282828, #383838);
+    color: #21D19F;
 }
 
-/* Apply padding to each screen (start, game, and end) */
-#startScreen,
+* Apply padding to each screen (start, game, and end) and add shadow */ #startScreen,
 #gameScreen,
 #endScreen {
     padding: 20px;
-}
-
-/* Style the rules section with a border and a white background */
-#rules {
-    margin-top: 20px;
-    padding: 20px;
-    border: 1px solid #CCC;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 10px;
-    background-color: #FFF;
+    margin: 10px auto;
+    max-width: 600px;
+    background-color: #282828;
+    color: #21D19F;
 }
 
-/* Style the buttons with a blue background and white text. Add some padding and margin for spacing. */
+/* Initially hide the game and end screens */
+#gameScreen,
+#endScreen {
+    display: none;
+}
+
+/* Style the rules section */
+#rules {
+    text-align: left;
+    padding: 20px;
+    margin-top: 20px;
+    border: 1px solid #21D19F;
+    border-radius: 10px;
+    background-color: #282828;
+    font-size: 18px;
+}
+
+#rules ul {
+    list-style-type: none;
+}
+
+#rules ul li {
+    margin-bottom: 10px;
+}
+
+#rules ul li::before {
+    content: "👉 ";
+    color: #21D19F;
+}
+
+/* Style the buttons. Add some padding and margin for spacing. */
 button {
     margin: 10px;
     padding: 10px 20px;
     font-size: 20px;
     border: none;
     border-radius: 5px;
-    background-color: #007BFF;
-    color: #FFF;
+    background-color: #21D19F;
+    color: #282828;
     cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
 /* Change the button's background color when hovered over */
 button:hover {
-    background-color: #0056b3;
+    background-color: #16a085;
 }
 
 /* Change the button's background color when clicked */
 button:active {
-    background-color: #003680;
+    background-color: #107360;
 }
