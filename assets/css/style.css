@@ -1,0 +1,7 @@
+/* Apply Roboto font, center alignment, and light gray background to the whole body */
+body {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    background-color: #F5F5F5;
+    color: #333;
+}
