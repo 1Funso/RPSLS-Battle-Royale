@@ -46,9 +46,16 @@
             <button onclick="playRound('lizard')"><i class="fas fa-dragon"></i></button>
             <button onclick="playRound('spock')"><i class="far fa-hand-spock"></i></button>
         </div>
-
-    </div>
-    <script src="assets/js/script.js"></script>
+        <!-- The end screen shown when the game is over. Initially hidden. -->
+        <div id="endScreen" class="endScreen">
+            <h1>Game Over!</h1>
+            <!-- Display the final score -->
+            <h2 id="finalScore"></h2>
+            <!-- Button to play again. When clicked, it calls the resetGame function. -->
+            <button onclick="resetGame()">Play Again</button>
+        </div>
+        <!-- Link to your JavaScript file -->
+        <script src="assets/js/script.js"></script>
 </body>
 
 </html>
