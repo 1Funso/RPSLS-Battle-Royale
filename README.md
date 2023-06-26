@@ -1,39 +1,82 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# RPSLS Battle Royale!
 
-Welcome,
+![Logo](https://github.com/1Funso/RPSLS-Battle-Royale/blob/main/assets/images/RSPLS%20logo-r1.png)
 
-This is the Code Institute student template for Codeanywhere. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+Prepare for an epic clash of hand gestures in RPSLS Battle Royale! Engage in strategic warfare as you wield the powers of rock, paper, scissors, lizard, and Spock. Outwit your opponents, anticipate their moves, and emerge victorious in this ultimate game of skill and cunning.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **May 11th, 2023**
+![Game Screenshot](<Placeholder Link to game screenshot>)
 
-## Codeanywhere Reminders
+## Table of Contents
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+- [Features](#features)
+- [Game Rules and Instructions](#game-rules-and-instructions)
+- [Testing](#testing)
+- [Deployment](#deployment)
+- [Credits](#credits)
 
-`python3 -m http.server`
+## Features
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+The project includes the following features:
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+- **Landing Page**: The landing page greets the user and provides a brief introduction of the game. It includes an input field for users to enter their name and a 'Start Game' button to begin the game.
 
-`http_server`
+![Landing page Screenshot](<Placeholder Link to Landing page screenshot>)
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+- **Gameplay**: The gameplay is interactive. Players select their move by clicking one of the five buttons - Rock, Paper, Scissors, Lizard or Spock. The game displays the move made by the player and the computer, and announces the winner of each round.
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+![Gameplay Screenshot](<Placholder Link to GamePage screenshot>)
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+- **End Game**: When ten rounds of the game have been played, the game screen is hidden and an end screen is displayed. This screen shows the player's final score and a 'Play Again' button.
 
-To log into the Heroku toolbelt CLI:
+![End Game Screenshot](<Placeholder Link to Finalpage screenshot>)
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+## Game Rules and Instructions
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+- **Step 1**: Enter your name and press 'Start Game'.
+- **Step 2**: Choose your move by clicking one of the following buttons: Rock, Paper, Scissors, Lizard, or Spock.
+- **Step 3**: The computer will also make a move. The winner of the round is determined by the following rules:
+  - Rock crushes Scissors and Lizard
+  - Paper covers Rock and disproves Spock
+  - Scissors cuts Paper and decapitates Lizard
+  - Lizard eats Paper and poisons Spock
+  - Spock smashes Scissors and vaporizes Rock
+- **Scoring**: You get a point if you win a round. The score is displayed on the game screen.
+- **End of the game**: The game ends after 10 rounds. Your final score will be displayed and you can start a new game by clicking the 'Play Again' button.
 
----
+## Testing
 
-Happy coding!
+The website was tested to ensure compatibility and responsiveness:
+
+- **Validator Testing**: To ensure the quality of the code, it was tested with the W3C Markup Validation Service, W3C CSS Validation Service, and JS Hint. These services ensure the validity and efficiency of HTML, CSS, and JavaScript code, respectively.
+
+  ![HTML Validator Screenshot](<Placeholader Link to HTML validator screenshot>)
+  ![CSS Validator Screenshot](<Placeholder Link to CSS validator screenshot>)
+  ![JavaScript Validator Screenshot](<Placeholder Link to JavaScript validator screenshot>)
+
+## Lighthouse Testing
+
+We have used [Lighthouse](https://developers.google.com/web/tools/lighthouse) for auditing our web application's performance, accessibility, and SEO. Lighthouse is a part of Chrome's DevTools, which can be easily accessed in the browser.
+![LightHouse Screenshot](<Placeholder Link to LightHouse screenshot>)
+
+## Deployment
+
+This project was developed using Codeanywhere, version controlled with Git, and hosted on GitHub. The site is deployed on GitHub Pages.
+
+To deploy RPSLS Battle Royale! to GitHub Pages from its [GitHub repository](<link to repository>), the following steps were taken:
+
+1. Log into GitHub and locate the [GitHub Repository](<link to your repository>).
+2. At the top of the repository, select the "Settings" button on the menu.
+3. Scroll down the Settings page to the "GitHub Pages" section.
+4. Under "Source", click the dropdown called "None" and select "Master Branch".
+5. The page will automatically refresh meaning that the website is now deployed.
+6. Scroll back down to the "GitHub Pages" section to retrieve the link to the deployed site.
+
+## Credits
+
+The project uses the following resources:
+
+- [Font Awesome](https://fontawesome.com/): The site uses Font Awesome for the icons present in the game.
+
+- [Google Fonts](https://fonts.google.com/): Google fonts 'Roboto' has been used across the entire site as it is clean, crisp, and easy to read.
+
+- Logo created with [Microsoft Paint 3D](https://www.microsoft.com/en-us/p/paint-3d/9nblggh5fv99) and [Dalle](http://www.dalle.io/).
