@@ -7,8 +7,14 @@ Prepare for an epic clash of hand gestures in RPSLS Battle Royale! Engage in str
 ![Game Screenshot](https://github.com/1Funso/RPSLS-Battle-Royale/blob/main/assets/images/all-devices-black.png)
 
 
-![GitHub repository](https://github.com/1Funso/RPSLS-Battle-Royale.git)
-![Live Deployment](https://1funso.github.io/RPSLS-Battle-Royale/)
+### Github Repository
+
+You can find the GitHub repository by clicking [here](https://github.com/1Funso/RPSLS-Battle-Royale).
+
+### Live Deployment
+
+The live deployment of the project can be accessed by clicking [here](https://1funso.github.io/RPSLS-Battle-Royale/).
+
 
 ## Table of Contents
 
@@ -66,9 +72,14 @@ I have used [Lighthouse](https://developers.google.com/web/tools/lighthouse) for
 
 This project was developed using Codeanywhere, version controlled with Git, and hosted on GitHub. The site is deployed on GitHub Pages.
 
-![Github Repository](https://github.com/1Funso/RPSLS-Battle-Royale)
+### Github Repository
 
-![Live Deployment](https://1funso.github.io/RPSLS-Battle-Royale/)
+You can find the GitHub repository by clicking [here](https://github.com/1Funso/RPSLS-Battle-Royale).
+
+### Live Deployment
+
+The live deployment of the project can be accessed by clicking [here](https://1funso.github.io/RPSLS-Battle-Royale/).
+
 
 ## Credits
 
