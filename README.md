@@ -1,18 +1,7 @@
-<p align="center">
-
-![Logo](https://github.com/1Funso/RPSLS-Battle-Royale/blob/main/assets/images/RSPLSlogo-r1.png)
-
-</p>
-
-# RPSLS Battle Royale!
-
+# RPSLS Battle Royale! ![Logo](https://github.com/1Funso/RPSLS-Battle-Royale/blob/main/assets/images/RSPLSlogo-r1.png)
 Prepare for an epic clash of hand gestures in RPSLS Battle Royale! Engage in strategic warfare as you wield the powers of rock, paper, scissors, lizard, and Spock. Outwit your opponents, anticipate their moves, and emerge victorious in this ultimate game of skill and cunning.
-
-<p align="center">
-
 ![Game Screenshot](https://github.com/1Funso/RPSLS-Battle-Royale/blob/main/assets/images/all-devices-black.png)
 
-</p>
 
 ### Github Repository
 
