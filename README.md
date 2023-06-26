@@ -1,10 +1,14 @@
 # RPSLS Battle Royale!
 
-![Logo](https://github.com/1Funso/RPSLS-Battle-Royale/blob/main/assets/images/RSPLS%20logo-r1.png)
+![Logo](https://github.com/1Funso/RPSLS-Battle-Royale/blob/main/assets/images/RSPLSlogo-r1.png)
 
 Prepare for an epic clash of hand gestures in RPSLS Battle Royale! Engage in strategic warfare as you wield the powers of rock, paper, scissors, lizard, and Spock. Outwit your opponents, anticipate their moves, and emerge victorious in this ultimate game of skill and cunning.
 
 ![Game Screenshot](https://github.com/1Funso/RPSLS-Battle-Royale/blob/main/assets/images/all-devices-black.png)
+
+
+![GitHub repository](https://github.com/1Funso/RPSLS-Battle-Royale.git)
+![Live Deployment](https://1funso.github.io/RPSLS-Battle-Royale/)
 
 ## Table of Contents
 
@@ -24,7 +28,7 @@ The project includes the following features:
 
 - **Gameplay**: The gameplay is interactive. Players select their move by clicking one of the five buttons - Rock, Paper, Scissors, Lizard or Spock. The game displays the move made by the player and the computer, and announces the winner of each round.
 
-![Gameplay Screenshot](<https://github.com/1Funso/RPSLS-Battle-Royale/blob/main/assets/images/game-page-laptop.jpg)
+![Gameplay Screenshot](https://github.com/1Funso/RPSLS-Battle-Royale/blob/main/assets/images/game-page-laptop.jpg)
 
 - **End Game**: When ten rounds of the game have been played, the game screen is hidden and an end screen is displayed. This screen shows the player's final score and a 'Play Again' button.
 
@@ -55,7 +59,7 @@ The website was tested to ensure compatibility and responsiveness:
 
 ## Lighthouse Testing
 
-We have used [Lighthouse](https://developers.google.com/web/tools/lighthouse) for auditing our web application's performance, accessibility, and SEO. Lighthouse is a part of Chrome's DevTools, which can be easily accessed in the browser.
+I have used [Lighthouse](https://developers.google.com/web/tools/lighthouse) for auditing the web application's performance, accessibility, and SEO. Lighthouse is a part of Chrome's DevTools, which can be easily accessed in the browser.
 ![LightHouse Screenshot](https://github.com/1Funso/RPSLS-Battle-Royale/blob/main/assets/images/Lighthouse_report.png)
 
 ## Deployment
