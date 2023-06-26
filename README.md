@@ -4,7 +4,7 @@
 
 Prepare for an epic clash of hand gestures in RPSLS Battle Royale! Engage in strategic warfare as you wield the powers of rock, paper, scissors, lizard, and Spock. Outwit your opponents, anticipate their moves, and emerge victorious in this ultimate game of skill and cunning.
 
-![Game Screenshot](<Placeholder Link to game screenshot>)
+![Game Screenshot](https://github.com/1Funso/RPSLS-Battle-Royale/blob/main/assets/images/all-devices-black.png)
 
 ## Table of Contents
 
@@ -20,15 +20,15 @@ The project includes the following features:
 
 - **Landing Page**: The landing page greets the user and provides a brief introduction of the game. It includes an input field for users to enter their name and a 'Start Game' button to begin the game.
 
-![Landing page Screenshot](<Placeholder Link to Landing page screenshot>)
+![Landing page Screenshot](https://github.com/1Funso/RPSLS-Battle-Royale/blob/main/assets/images/Landing-page-cropped.jpg)
 
 - **Gameplay**: The gameplay is interactive. Players select their move by clicking one of the five buttons - Rock, Paper, Scissors, Lizard or Spock. The game displays the move made by the player and the computer, and announces the winner of each round.
 
-![Gameplay Screenshot](<Placholder Link to GamePage screenshot>)
+![Gameplay Screenshot](<https://github.com/1Funso/RPSLS-Battle-Royale/blob/main/assets/images/game-page-laptop.jpg)
 
 - **End Game**: When ten rounds of the game have been played, the game screen is hidden and an end screen is displayed. This screen shows the player's final score and a 'Play Again' button.
 
-![End Game Screenshot](<Placeholder Link to Finalpage screenshot>)
+![End Game Screenshot](https://github.com/1Funso/RPSLS-Battle-Royale/blob/main/assets/images/final-page-laptop.png)
 
 ## Game Rules and Instructions
 
@@ -49,27 +49,22 @@ The website was tested to ensure compatibility and responsiveness:
 
 - **Validator Testing**: To ensure the quality of the code, it was tested with the W3C Markup Validation Service, W3C CSS Validation Service, and JS Hint. These services ensure the validity and efficiency of HTML, CSS, and JavaScript code, respectively.
 
-  ![HTML Validator Screenshot](<Placeholader Link to HTML validator screenshot>)
-  ![CSS Validator Screenshot](<Placeholder Link to CSS validator screenshot>)
-  ![JavaScript Validator Screenshot](<Placeholder Link to JavaScript validator screenshot>)
+  ![HTML Validator Screenshot](https://github.com/1Funso/RPSLS-Battle-Royale/blob/main/assets/images/HTML-w3c-report.png)
+  ![CSS Validator Screenshot](https://github.com/1Funso/RPSLS-Battle-Royale/blob/main/assets/images/CSS_Validator_report.png)
+  ![JavaScript Validator Screenshot](https://github.com/1Funso/RPSLS-Battle-Royale/blob/main/assets/images/JS_Validator_report.png)
 
 ## Lighthouse Testing
 
 We have used [Lighthouse](https://developers.google.com/web/tools/lighthouse) for auditing our web application's performance, accessibility, and SEO. Lighthouse is a part of Chrome's DevTools, which can be easily accessed in the browser.
-![LightHouse Screenshot](<Placeholder Link to LightHouse screenshot>)
+![LightHouse Screenshot](https://github.com/1Funso/RPSLS-Battle-Royale/blob/main/assets/images/Lighthouse_report.png)
 
 ## Deployment
 
 This project was developed using Codeanywhere, version controlled with Git, and hosted on GitHub. The site is deployed on GitHub Pages.
 
-To deploy RPSLS Battle Royale! to GitHub Pages from its [GitHub repository](<link to repository>), the following steps were taken:
+![Github Repository](https://github.com/1Funso/RPSLS-Battle-Royale)
 
-1. Log into GitHub and locate the [GitHub Repository](<link to your repository>).
-2. At the top of the repository, select the "Settings" button on the menu.
-3. Scroll down the Settings page to the "GitHub Pages" section.
-4. Under "Source", click the dropdown called "None" and select "Master Branch".
-5. The page will automatically refresh meaning that the website is now deployed.
-6. Scroll back down to the "GitHub Pages" section to retrieve the link to the deployed site.
+![Live Deployment](https://1funso.github.io/RPSLS-Battle-Royale/)
 
 ## Credits
 
